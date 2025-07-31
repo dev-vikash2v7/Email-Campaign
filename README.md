@@ -9,7 +9,7 @@
 npm install
 
 
-3. Set up `.env` from `.env.sample` (edit with your SMTP, MongoDB settings)
+3. Set up `.env` from `.env.sample` (edit  your SMTP, MongoDB settings)
 4. Start MongoDB locally
 5. Run the server:
 
