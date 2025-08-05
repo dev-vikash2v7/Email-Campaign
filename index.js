@@ -7,6 +7,10 @@ const campaignRoutes = require('./routes/campaign');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+app.set('views', path.join(process.cwd(), 'views'));
+
+
 mongoose.connect("mongodb+srv://user:vikash..123@cluster0.wrblu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'));
 
