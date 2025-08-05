@@ -40,7 +40,7 @@ router.post('/campaigns', async (req, res) => {
 
 router.get('/', async (req, res) => {
   const campaigns = await Campaign.find().sort({ scheduledTime: -1 });
-  console.log('a' ,campaigns , campaigns[2].recipients);
+  // console.log('a' ,campaigns , campaigns[2].recipients);
   res.render('campaigns', { campaigns  : campaigns.map(c => c.toObject())});
 });
 
