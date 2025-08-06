@@ -1,7 +1,7 @@
 <div align="center">
   <div>
     <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-NodeJS-black?style=for-the-badge&logoColor=white&logo=node&color=green" alt="node" />
+    <img src="https://img.shields.io/badge/-NodeJS-black?style=for-the-badge&logoColor=white&logo=node&color=darkgreen" alt="node" />
     <img src="https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=green" alt="mongodb" />
    <img src="https://img.shields.io/badge/Express Handlebars-white?style=for-the-badge&logoColor=white&logo=express&color=black" alt="express" />
    
@@ -13,11 +13,12 @@
 ## <a name="introduction">🤖 Introduction</a>
  <div>
 <p>
+  
 1. Email Scheduling: Node cron to schedule email delivery.
 
 2. Email Sending: Use of nodemailer & SMTP to send emails at the scheduled time.
 
-Campaign Listing API: Lists all campaigns with status – pending, sent, or failed.
+3. Campaign Listing API: Lists all campaigns with status – pending, sent, or failed.
 </p>
   
 </div>
